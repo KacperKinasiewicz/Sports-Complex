@@ -1,0 +1,212 @@
+[
+{
+  "directory": "/home/student/CLionProjects/start/project/cmake-build-debug/library",
+  "command": "/usr/bin/g++  -I/home/student/CLionProjects/start/project/library/include -g3 -gdwarf-4 -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/Library.dir/src/model/BasketballCourt.cpp.o -c /home/student/CLionProjects/start/project/library/src/model/BasketballCourt.cpp",
+  "file": "/home/student/CLionProjects/start/project/library/src/model/BasketballCourt.cpp"
+},
+{
+  "directory": "/home/student/CLionProjects/start/project/cmake-build-debug/library",
+  "command": "/usr/bin/g++  -I/home/student/CLionProjects/start/project/library/include -g3 -gdwarf-4 -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/Library.dir/src/model/Court.cpp.o -c /home/student/CLionProjects/start/project/library/src/model/Court.cpp",
+  "file": "/home/student/CLionProjects/start/project/library/src/model/Court.cpp"
+},
+{
+  "directory": "/home/student/CLionProjects/start/project/cmake-build-debug/library",
+  "command": "/usr/bin/g++  -I/home/student/CLionProjects/start/project/library/include -g3 -gdwarf-4 -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/Library.dir/src/model/CoveredCourt.cpp.o -c /home/student/CLionProjects/start/project/library/src/model/CoveredCourt.cpp",
+  "file": "/home/student/CLionProjects/start/project/library/src/model/CoveredCourt.cpp"
+},
+{
+  "directory": "/home/student/CLionProjects/start/project/cmake-build-debug/library",
+  "command": "/usr/bin/g++  -I/home/student/CLionProjects/start/project/library/include -g3 -gdwarf-4 -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/Library.dir/src/model/FootballPitch.cpp.o -c /home/student/CLionProjects/start/project/library/src/model/FootballPitch.cpp",
+  "file": "/home/student/CLionProjects/start/project/library/src/model/FootballPitch.cpp"
+},
+{
+  "directory": "/home/student/CLionProjects/start/project/cmake-build-debug/library",
+  "command": "/usr/bin/g++  -I/home/student/CLionProjects/start/project/library/include -g3 -gdwarf-4 -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/Library.dir/src/model/GrassPitch.cpp.o -c /home/student/CLionProjects/start/project/library/src/model/GrassPitch.cpp",
+  "file": "/home/student/CLionProjects/start/project/library/src/model/GrassPitch.cpp"
+},
+{
+  "directory": "/home/student/CLionProjects/start/project/cmake-build-debug/library",
+  "command": "/usr/bin/g++  -I/home/student/CLionProjects/start/project/library/include -g3 -gdwarf-4 -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/Library.dir/src/model/PingPongTable.cpp.o -c /home/student/CLionProjects/start/project/library/src/model/PingPongTable.cpp",
+  "file": "/home/student/CLionProjects/start/project/library/src/model/PingPongTable.cpp"
+},
+{
+  "directory": "/home/student/CLionProjects/start/project/cmake-build-debug/library",
+  "command": "/usr/bin/g++  -I/home/student/CLionProjects/start/project/library/include -g3 -gdwarf-4 -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/Library.dir/src/model/TennisCourt.cpp.o -c /home/student/CLionProjects/start/project/library/src/model/TennisCourt.cpp",
+  "file": "/home/student/CLionProjects/start/project/library/src/model/TennisCourt.cpp"
+},
+{
+  "directory": "/home/student/CLionProjects/start/project/cmake-build-debug/library",
+  "command": "/usr/bin/g++  -I/home/student/CLionProjects/start/project/library/include -g3 -gdwarf-4 -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/Library.dir/src/model/VolleyballPitch.cpp.o -c /home/student/CLionProjects/start/project/library/src/model/VolleyballPitch.cpp",
+  "file": "/home/student/CLionProjects/start/project/library/src/model/VolleyballPitch.cpp"
+},
+{
+  "directory": "/home/student/CLionProjects/start/project/cmake-build-debug/library",
+  "command": "/usr/bin/g++  -I/home/student/CLionProjects/start/project/library/include -g3 -gdwarf-4 -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/Library.dir/src/model/Equipment.cpp.o -c /home/student/CLionProjects/start/project/library/src/model/Equipment.cpp",
+  "file": "/home/student/CLionProjects/start/project/library/src/model/Equipment.cpp"
+},
+{
+  "directory": "/home/student/CLionProjects/start/project/cmake-build-debug/library",
+  "command": "/usr/bin/g++  -I/home/student/CLionProjects/start/project/library/include -g3 -gdwarf-4 -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/Library.dir/src/model/Rocket.cpp.o -c /home/student/CLionProjects/start/project/library/src/model/Rocket.cpp",
+  "file": "/home/student/CLionProjects/start/project/library/src/model/Rocket.cpp"
+},
+{
+  "directory": "/home/student/CLionProjects/start/project/cmake-build-debug/library",
+  "command": "/usr/bin/g++  -I/home/student/CLionProjects/start/project/library/include -g3 -gdwarf-4 -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/Library.dir/src/model/Ball.cpp.o -c /home/student/CLionProjects/start/project/library/src/model/Ball.cpp",
+  "file": "/home/student/CLionProjects/start/project/library/src/model/Ball.cpp"
+},
+{
+  "directory": "/home/student/CLionProjects/start/project/cmake-build-debug/library",
+  "command": "/usr/bin/g++  -I/home/student/CLionProjects/start/project/library/include -g3 -gdwarf-4 -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/Library.dir/src/model/Client.cpp.o -c /home/student/CLionProjects/start/project/library/src/model/Client.cpp",
+  "file": "/home/student/CLionProjects/start/project/library/src/model/Client.cpp"
+},
+{
+  "directory": "/home/student/CLionProjects/start/project/cmake-build-debug/library",
+  "command": "/usr/bin/g++  -I/home/student/CLionProjects/start/project/library/include -g3 -gdwarf-4 -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/Library.dir/src/model/ClientType.cpp.o -c /home/student/CLionProjects/start/project/library/src/model/ClientType.cpp",
+  "file": "/home/student/CLionProjects/start/project/library/src/model/ClientType.cpp"
+},
+{
+  "directory": "/home/student/CLionProjects/start/project/cmake-build-debug/library",
+  "command": "/usr/bin/g++  -I/home/student/CLionProjects/start/project/library/include -g3 -gdwarf-4 -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/Library.dir/src/model/Address.cpp.o -c /home/student/CLionProjects/start/project/library/src/model/Address.cpp",
+  "file": "/home/student/CLionProjects/start/project/library/src/model/Address.cpp"
+},
+{
+  "directory": "/home/student/CLionProjects/start/project/cmake-build-debug/library",
+  "command": "/usr/bin/g++  -I/home/student/CLionProjects/start/project/library/include -g3 -gdwarf-4 -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/Library.dir/src/model/Rent.cpp.o -c /home/student/CLionProjects/start/project/library/src/model/Rent.cpp",
+  "file": "/home/student/CLionProjects/start/project/library/src/model/Rent.cpp"
+},
+{
+  "directory": "/home/student/CLionProjects/start/project/cmake-build-debug/library",
+  "command": "/usr/bin/g++  -I/home/student/CLionProjects/start/project/library/include -g3 -gdwarf-4 -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/Library.dir/test/master.cpp.o -c /home/student/CLionProjects/start/project/library/test/master.cpp",
+  "file": "/home/student/CLionProjects/start/project/library/test/master.cpp"
+},
+{
+  "directory": "/home/student/CLionProjects/start/project/cmake-build-debug/library",
+  "command": "/usr/bin/g++  -I/home/student/CLionProjects/start/project/library/include -g3 -gdwarf-4 -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/Library.dir/test/CourtTest.cpp.o -c /home/student/CLionProjects/start/project/library/test/CourtTest.cpp",
+  "file": "/home/student/CLionProjects/start/project/library/test/CourtTest.cpp"
+},
+{
+  "directory": "/home/student/CLionProjects/start/project/cmake-build-debug/library",
+  "command": "/usr/bin/g++  -I/home/student/CLionProjects/start/project/library/include -g3 -gdwarf-4 -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/Library.dir/test/EquipmentTest.cpp.o -c /home/student/CLionProjects/start/project/library/test/EquipmentTest.cpp",
+  "file": "/home/student/CLionProjects/start/project/library/test/EquipmentTest.cpp"
+},
+{
+  "directory": "/home/student/CLionProjects/start/project/cmake-build-debug/library",
+  "command": "/usr/bin/g++  -I/home/student/CLionProjects/start/project/library/include -g3 -gdwarf-4 -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/Library.dir/src/managers/EquipmentManager.cpp.o -c /home/student/CLionProjects/start/project/library/src/managers/EquipmentManager.cpp",
+  "file": "/home/student/CLionProjects/start/project/library/src/managers/EquipmentManager.cpp"
+},
+{
+  "directory": "/home/student/CLionProjects/start/project/cmake-build-debug/library",
+  "command": "/usr/bin/g++  -I/home/student/CLionProjects/start/project/library/include -g3 -gdwarf-4 -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/Library.dir/src/managers/CourtManager.cpp.o -c /home/student/CLionProjects/start/project/library/src/managers/CourtManager.cpp",
+  "file": "/home/student/CLionProjects/start/project/library/src/managers/CourtManager.cpp"
+},
+{
+  "directory": "/home/student/CLionProjects/start/project/cmake-build-debug/library",
+  "command": "/usr/bin/g++  -I/home/student/CLionProjects/start/project/library/include -g3 -gdwarf-4 -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/Library.dir/src/managers/RentManager.cpp.o -c /home/student/CLionProjects/start/project/library/src/managers/RentManager.cpp",
+  "file": "/home/student/CLionProjects/start/project/library/src/managers/RentManager.cpp"
+},
+{
+  "directory": "/home/student/CLionProjects/start/project/cmake-build-debug/library",
+  "command": "/usr/bin/g++  -I/home/student/CLionProjects/start/project/library/include -g3 -gdwarf-4 -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/Library.dir/src/managers/ClientManager.cpp.o -c /home/student/CLionProjects/start/project/library/src/managers/ClientManager.cpp",
+  "file": "/home/student/CLionProjects/start/project/library/src/managers/ClientManager.cpp"
+},
+{
+  "directory": "/home/student/CLionProjects/start/project/cmake-build-debug/library",
+  "command": "/usr/bin/g++  -I/home/student/CLionProjects/start/project/library/include -g3 -gdwarf-4 -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/Library.dir/src/StorageContainer.cpp.o -c /home/student/CLionProjects/start/project/library/src/StorageContainer.cpp",
+  "file": "/home/student/CLionProjects/start/project/library/src/StorageContainer.cpp"
+},
+{
+  "directory": "/home/student/CLionProjects/start/project/cmake-build-debug/library",
+  "command": "/usr/bin/g++  -I/home/student/CLionProjects/start/project/library/include -g3 -gdwarf-4 -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/Library.dir/src/repositories/RentRepository.cpp.o -c /home/student/CLionProjects/start/project/library/src/repositories/RentRepository.cpp",
+  "file": "/home/student/CLionProjects/start/project/library/src/repositories/RentRepository.cpp"
+},
+{
+  "directory": "/home/student/CLionProjects/start/project/cmake-build-debug/library",
+  "command": "/usr/bin/g++  -I/home/student/CLionProjects/start/project/library/include -g3 -gdwarf-4 -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/Library.dir/src/repositories/ClientRepository.cpp.o -c /home/student/CLionProjects/start/project/library/src/repositories/ClientRepository.cpp",
+  "file": "/home/student/CLionProjects/start/project/library/src/repositories/ClientRepository.cpp"
+},
+{
+  "directory": "/home/student/CLionProjects/start/project/cmake-build-debug/library",
+  "command": "/usr/bin/g++  -I/home/student/CLionProjects/start/project/library/include -g3 -gdwarf-4 -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/Library.dir/src/repositories/EquipmentRepository.cpp.o -c /home/student/CLionProjects/start/project/library/src/repositories/EquipmentRepository.cpp",
+  "file": "/home/student/CLionProjects/start/project/library/src/repositories/EquipmentRepository.cpp"
+},
+{
+  "directory": "/home/student/CLionProjects/start/project/cmake-build-debug/library",
+  "command": "/usr/bin/g++  -I/home/student/CLionProjects/start/project/library/include -g3 -gdwarf-4 -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/Library.dir/src/repositories/CourtRepository.cpp.o -c /home/student/CLionProjects/start/project/library/src/repositories/CourtRepository.cpp",
+  "file": "/home/student/CLionProjects/start/project/library/src/repositories/CourtRepository.cpp"
+},
+{
+  "directory": "/home/student/CLionProjects/start/project/cmake-build-debug/library",
+  "command": "/usr/bin/g++  -I/home/student/CLionProjects/start/project/library/include -g3 -gdwarf-4 -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/Library.dir/test/ClientTest.cpp.o -c /home/student/CLionProjects/start/project/library/test/ClientTest.cpp",
+  "file": "/home/student/CLionProjects/start/project/library/test/ClientTest.cpp"
+},
+{
+  "directory": "/home/student/CLionProjects/start/project/cmake-build-debug/library",
+  "command": "/usr/bin/g++  -I/home/student/CLionProjects/start/project/library/include -g3 -gdwarf-4 -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/Library.dir/test/RentTest.cpp.o -c /home/student/CLionProjects/start/project/library/test/RentTest.cpp",
+  "file": "/home/student/CLionProjects/start/project/library/test/RentTest.cpp"
+},
+{
+  "directory": "/home/student/CLionProjects/start/project/cmake-build-debug/library",
+  "command": "/usr/bin/g++  -I/home/student/CLionProjects/start/project/library/include -g3 -gdwarf-4 -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/Library.dir/test/AddressTest.cpp.o -c /home/student/CLionProjects/start/project/library/test/AddressTest.cpp",
+  "file": "/home/student/CLionProjects/start/project/library/test/AddressTest.cpp"
+},
+{
+  "directory": "/home/student/CLionProjects/start/project/cmake-build-debug/library",
+  "command": "/usr/bin/g++  -I/home/student/CLionProjects/start/project/library/include -g3 -gdwarf-4 -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/Library.dir/test/RepositoryTest.cpp.o -c /home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp",
+  "file": "/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp"
+},
+{
+  "directory": "/home/student/CLionProjects/start/project/cmake-build-debug/library",
+  "command": "/usr/bin/g++  -I/home/student/CLionProjects/start/project/library/include -g3 -gdwarf-4 -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/Library.dir/src/SuperManager.cpp.o -c /home/student/CLionProjects/start/project/library/src/SuperManager.cpp",
+  "file": "/home/student/CLionProjects/start/project/library/src/SuperManager.cpp"
+},
+{
+  "directory": "/home/student/CLionProjects/start/project/cmake-build-debug/library",
+  "command": "/usr/bin/g++  -I/home/student/CLionProjects/start/project/library/include -g3 -gdwarf-4 -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/Library.dir/test/ManagersTest.cpp.o -c /home/student/CLionProjects/start/project/library/test/ManagersTest.cpp",
+  "file": "/home/student/CLionProjects/start/project/library/test/ManagersTest.cpp"
+},
+{
+  "directory": "/home/student/CLionProjects/start/project/cmake-build-debug/library",
+  "command": "/usr/bin/g++ -DBOOST_ALL_NO_LIB -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -I/home/student/CLionProjects/start/project/library/include -g3 -gdwarf-4 -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/LibraryTester.dir/test/AddressTest.cpp.o -c /home/student/CLionProjects/start/project/library/test/AddressTest.cpp",
+  "file": "/home/student/CLionProjects/start/project/library/test/AddressTest.cpp"
+},
+{
+  "directory": "/home/student/CLionProjects/start/project/cmake-build-debug/library",
+  "command": "/usr/bin/g++ -DBOOST_ALL_NO_LIB -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -I/home/student/CLionProjects/start/project/library/include -g3 -gdwarf-4 -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/LibraryTester.dir/test/ClientTest.cpp.o -c /home/student/CLionProjects/start/project/library/test/ClientTest.cpp",
+  "file": "/home/student/CLionProjects/start/project/library/test/ClientTest.cpp"
+},
+{
+  "directory": "/home/student/CLionProjects/start/project/cmake-build-debug/library",
+  "command": "/usr/bin/g++ -DBOOST_ALL_NO_LIB -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -I/home/student/CLionProjects/start/project/library/include -g3 -gdwarf-4 -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/LibraryTester.dir/test/CourtTest.cpp.o -c /home/student/CLionProjects/start/project/library/test/CourtTest.cpp",
+  "file": "/home/student/CLionProjects/start/project/library/test/CourtTest.cpp"
+},
+{
+  "directory": "/home/student/CLionProjects/start/project/cmake-build-debug/library",
+  "command": "/usr/bin/g++ -DBOOST_ALL_NO_LIB -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -I/home/student/CLionProjects/start/project/library/include -g3 -gdwarf-4 -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/LibraryTester.dir/test/EquipmentTest.cpp.o -c /home/student/CLionProjects/start/project/library/test/EquipmentTest.cpp",
+  "file": "/home/student/CLionProjects/start/project/library/test/EquipmentTest.cpp"
+},
+{
+  "directory": "/home/student/CLionProjects/start/project/cmake-build-debug/library",
+  "command": "/usr/bin/g++ -DBOOST_ALL_NO_LIB -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -I/home/student/CLionProjects/start/project/library/include -g3 -gdwarf-4 -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/LibraryTester.dir/test/master.cpp.o -c /home/student/CLionProjects/start/project/library/test/master.cpp",
+  "file": "/home/student/CLionProjects/start/project/library/test/master.cpp"
+},
+{
+  "directory": "/home/student/CLionProjects/start/project/cmake-build-debug/library",
+  "command": "/usr/bin/g++ -DBOOST_ALL_NO_LIB -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -I/home/student/CLionProjects/start/project/library/include -g3 -gdwarf-4 -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/LibraryTester.dir/test/RentTest.cpp.o -c /home/student/CLionProjects/start/project/library/test/RentTest.cpp",
+  "file": "/home/student/CLionProjects/start/project/library/test/RentTest.cpp"
+},
+{
+  "directory": "/home/student/CLionProjects/start/project/cmake-build-debug/library",
+  "command": "/usr/bin/g++ -DBOOST_ALL_NO_LIB -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -I/home/student/CLionProjects/start/project/library/include -g3 -gdwarf-4 -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/LibraryTester.dir/test/RepositoryTest.cpp.o -c /home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp",
+  "file": "/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp"
+},
+{
+  "directory": "/home/student/CLionProjects/start/project/cmake-build-debug/library",
+  "command": "/usr/bin/g++ -DBOOST_ALL_NO_LIB -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -I/home/student/CLionProjects/start/project/library/include -g3 -gdwarf-4 -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/LibraryTester.dir/test/ManagersTest.cpp.o -c /home/student/CLionProjects/start/project/library/test/ManagersTest.cpp",
+  "file": "/home/student/CLionProjects/start/project/library/test/ManagersTest.cpp"
+},
+{
+  "directory": "/home/student/CLionProjects/start/project/cmake-build-debug/program",
+  "command": "/usr/bin/g++  -I/home/student/CLionProjects/start/project/program/include -I/home/student/CLionProjects/start/project/library/include -g3 -gdwarf-4 -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/Program.dir/src/main.cpp.o -c /home/student/CLionProjects/start/project/program/src/main.cpp",
+  "file": "/home/student/CLionProjects/start/project/program/src/main.cpp"
+}
+]

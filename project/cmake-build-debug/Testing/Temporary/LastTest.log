@@ -1,0 +1,848 @@
+Start testing: Jun 09 09:59 CEST
+----------------------------------------------------------
+1/1 Testing: LibraryTest
+1/1 Test: LibraryTest
+Command: "/home/student/CLionProjects/start/project/cmake-build-debug/library/LibraryTester" "--report_level=detailed" "--log_level=all" "--color_output=yes"
+Directory: /home/student/CLionProjects/start/project/cmake-build-debug/library
+"LibraryTest" start time: Jun 09 09:59 CEST
+Output:
+----------------------------------------------------------
+Running 125 test cases...
+[1;34;49mEntering test module "Master Test Suite"
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/AddressTest.cpp(11): Entering test suite "TestSuiteAddress"
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/AddressTest.cpp(13): Entering test case "ParameterConstrutorTest"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/AddressTest.cpp(15): [1;32;49minfo: check testCity == a->getCity() has passed[0;39;49m
+/home/student/CLionProjects/start/project/library/test/AddressTest.cpp(16): [1;32;49minfo: check testStreet == a->getStreet() has passed[0;39;49m
+/home/student/CLionProjects/start/project/library/test/AddressTest.cpp(17): [1;32;49minfo: check testNumber == a->getNumber() has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/AddressTest.cpp(13): Leaving test case "ParameterConstrutorTest"; testing time: 454us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/AddressTest.cpp(20): Entering test case "CitySetterTestPositive"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/AddressTest.cpp(23): [1;32;49minfo: check testCSTP == testAddress->getCity() has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/AddressTest.cpp(20): Leaving test case "CitySetterTestPositive"; testing time: 388us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/AddressTest.cpp(26): Entering test case "CitySetterTestNegative"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/AddressTest.cpp(29): [1;32;49minfo: check testCity == testAddress->getCity() has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/AddressTest.cpp(26): Leaving test case "CitySetterTestNegative"; testing time: 343us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/AddressTest.cpp(32): Entering test case "StreetSetterTestPositive"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/AddressTest.cpp(35): [1;32;49minfo: check testSSTP == testAddress->getCity() has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/AddressTest.cpp(32): Leaving test case "StreetSetterTestPositive"; testing time: 242us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/AddressTest.cpp(38): Entering test case "StreetSetterTestNegative"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/AddressTest.cpp(41): [1;32;49minfo: check testCity == testAddress->getCity() has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/AddressTest.cpp(38): Leaving test case "StreetSetterTestNegative"; testing time: 502us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/AddressTest.cpp(44): Entering test case "NumberSetterTestPositive"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/AddressTest.cpp(47): [1;32;49minfo: check testNSTP == testAddress->getCity() has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/AddressTest.cpp(44): Leaving test case "NumberSetterTestPositive"; testing time: 344us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/AddressTest.cpp(50): Entering test case "NumberSetterTestNegative"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/AddressTest.cpp(53): [1;32;49minfo: check testCity == testAddress->getCity() has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/AddressTest.cpp(50): Leaving test case "NumberSetterTestNegative"; testing time: 240us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/AddressTest.cpp(11): Leaving test suite "TestSuiteAddress"; testing time: 2651us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(16): Entering test suite "TestSuiteClient"
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(18): Entering test case "ParameterConstrutorTest"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(20): [1;32;49minfo: check testFirstName == c->getFirstName() has passed[0;39;49m
+/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(21): [1;32;49minfo: check testLastName == c->getLastName() has passed[0;39;49m
+/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(22): [1;32;49minfo: check testPersonalID == c->getPersonalID() has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(18): Leaving test case "ParameterConstrutorTest"; testing time: 534us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(25): Entering test case "FirstNameSetterTestPositive"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(28): [1;32;49minfo: check testFNSTP == testClient->getFirstName() has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(25): Leaving test case "FirstNameSetterTestPositive"; testing time: 339us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(31): Entering test case "FirstNameSetterTestNegative"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(34): [1;32;49minfo: check testFirstName == testClient->getFirstName() has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(31): Leaving test case "FirstNameSetterTestNegative"; testing time: 465us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(37): Entering test case "LastNameSetterTestPositive"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(40): [1;32;49minfo: check testLNSTP == testClient->getLastName() has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(37): Leaving test case "LastNameSetterTestPositive"; testing time: 405us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(43): Entering test case "LastNameSetterTestNegative"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(46): [1;32;49minfo: check testLastName == testClient->getLastName() has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(43): Leaving test case "LastNameSetterTestNegative"; testing time: 372us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(49): Entering test case "AddressSetterTestPositive"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(52): [1;32;49minfo: check testASTP == testClient->getAddress() has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(49): Leaving test case "AddressSetterTestPositive"; testing time: 292us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(55): Entering test case "AddressSetterTestNegative"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(58): [1;32;49minfo: check testAddress == testClient->getAddress() has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(55): Leaving test case "AddressSetterTestNegative"; testing time: 421us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(61): Entering test case "ClientTypeSetterTestPositive"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(63): [1;32;49minfo: check testFitCarnet == testClient->getClientType() has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(61): Leaving test case "ClientTypeSetterTestPositive"; testing time: 370us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(66): Entering test case "ClientTypeSetterTestNegative"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(69): [1;32;49minfo: check testCTSTN != testClient->getClientType() has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(66): Leaving test case "ClientTypeSetterTestNegative"; testing time: 249us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(72): Entering test case "DefaultCourtsTest"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(74): [1;32;49minfo: check testClient->getClientType()->getMaxCourts() == 1 has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(72): Leaving test case "DefaultCourtsTest"; testing time: 305us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(77): Entering test case "FitCarnetCourtsTest"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(79): [1;32;49minfo: check testClient->getClientType()->getMaxCourts() == 1 has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(77): Leaving test case "FitCarnetCourtsTest"; testing time: 347us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(82): Entering test case "PatronCourtsTest"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(84): [1;32;49minfo: check testClient->getClientType()->getMaxCourts() == 3 has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(82): Leaving test case "PatronCourtsTest"; testing time: 272us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(87): Entering test case "TrainerCourtsTest"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(89): [1;32;49minfo: check testClient->getClientType()->getMaxCourts() == 5 has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(87): Leaving test case "TrainerCourtsTest"; testing time: 386us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(92): Entering test case "DefaultDiscountTest"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(94): [1;32;49minfo: check testClient->getClientType()->applyDiscount(100) == 100 has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(92): Leaving test case "DefaultDiscountTest"; testing time: 516us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(97): Entering test case "FitCarnetDiscountTest"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(99): [1;32;49minfo: check testClient->getClientType()->applyDiscount(100) == 95 has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(97): Leaving test case "FitCarnetDiscountTest"; testing time: 507us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(102): Entering test case "PatronDiscountTest"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(104): [1;32;49minfo: check testClient->getClientType()->applyDiscount(100) == 90 has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(102): Leaving test case "PatronDiscountTest"; testing time: 413us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(107): Entering test case "TrainerDiscountTest"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(109): [1;32;49minfo: check testClient->getClientType()->applyDiscount(100) == 85 has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(107): Leaving test case "TrainerDiscountTest"; testing time: 358us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/ClientTest.cpp(16): Leaving test suite "TestSuiteClient"; testing time: 6963us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(30): Entering test suite "TestSuiteCourt"
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(32): Entering test case "ParameterConstrutorTest"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(34): [1;32;49minfo: check testName == f->getName() has passed[0;39;49m
+/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(35): [1;32;49minfo: check testBasePrice == f->getBasePrice() has passed[0;39;49m
+/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(36): [1;32;49minfo: check true == f->isCovered() has passed[0;39;49m
+/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(37): [1;32;49minfo: check testArea == f->getArea() has passed[0;39;49m
+/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(38): [1;32;49minfo: check true == f->isGrassed() has passed[0;39;49m
+/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(39): [1;32;49minfo: check false == f->isRented() has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(32): Leaving test case "ParameterConstrutorTest"; testing time: 376us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(42): Entering test case "BasePriceSetterTestPositive"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(45): [1;32;49minfo: check testBPSTP == testCourt->getBasePrice() has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(42): Leaving test case "BasePriceSetterTestPositive"; testing time: 394us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(48): Entering test case "BasePriceSetterTestNegative"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(51): [1;32;49minfo: check testBasePrice == testCourt->getBasePrice() has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(48): Leaving test case "BasePriceSetterTestNegative"; testing time: 540us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(54): Entering test case "RentedSetterTestPositive"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(56): [1;32;49minfo: check true == testCourt->isRented() has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(54): Leaving test case "RentedSetterTestPositive"; testing time: 437us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(59): Entering test case "Pingpong1PriceTest"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(60): [1;32;49minfo: check 95 == int(pingpong1->getActualCourtPrice()) has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(59): Leaving test case "Pingpong1PriceTest"; testing time: 331us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(63): Entering test case "Basket1PriceTest"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(64): [1;32;49minfo: check 154 == int(basket1->getActualCourtPrice()) has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(63): Leaving test case "Basket1PriceTest"; testing time: 245us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(67): Entering test case "Basket2PriceTest"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(68): [1;32;49minfo: check 103 == int(basket2->getActualCourtPrice()) has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(67): Leaving test case "Basket2PriceTest"; testing time: 383us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(71): Entering test case "Basket3PriceTest"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(72): [1;32;49minfo: check 309 == int(basket3->getActualCourtPrice()) has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(71): Leaving test case "Basket3PriceTest"; testing time: 301us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(75): Entering test case "Volleyball1PriceTest"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(76): [1;32;49minfo: check 157 == int(volleyball1->getActualCourtPrice()) has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(75): Leaving test case "Volleyball1PriceTest"; testing time: 429us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(79): Entering test case "Volleyball2PriceTest"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(80): [1;32;49minfo: check 105 == int(volleyball2->getActualCourtPrice()) has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(79): Leaving test case "Volleyball2PriceTest"; testing time: 374us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(83): Entering test case "Volleyball3PriceTest"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(84): [1;32;49minfo: check 315 == int(volleyball3->getActualCourtPrice()) has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(83): Leaving test case "Volleyball3PriceTest"; testing time: 349us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(87): Entering test case "Tennis1PriceTest"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(88): [1;32;49minfo: check 137 == int(tennis1->getActualCourtPrice()) has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(87): Leaving test case "Tennis1PriceTest"; testing time: 333us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(91): Entering test case "Tennis2PriceTest"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(92): [1;32;49minfo: check 110 == int(tennis2->getActualCourtPrice()) has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(91): Leaving test case "Tennis2PriceTest"; testing time: 281us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(95): Entering test case "Tennis3PriceTest"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(96): [1;32;49minfo: check 275 == int(tennis3->getActualCourtPrice()) has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(95): Leaving test case "Tennis3PriceTest"; testing time: 360us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(99): Entering test case "Football1PriceTest"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(100): [1;32;49minfo: check 181 == int(football1->getActualCourtPrice()) has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(99): Leaving test case "Football1PriceTest"; testing time: 362us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(103): Entering test case "Football2PriceTest"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(104): [1;32;49minfo: check 131 == int(football2->getActualCourtPrice()) has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(103): Leaving test case "Football2PriceTest"; testing time: 296us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(107): Entering test case "Football3PriceTest"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(108): [1;32;49minfo: check 155 == int(football3->getActualCourtPrice()) has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(107): Leaving test case "Football3PriceTest"; testing time: 372us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(111): Entering test case "Football4PriceTest"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(112): [1;32;49minfo: check 105 == int(football4->getActualCourtPrice()) has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(111): Leaving test case "Football4PriceTest"; testing time: 386us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(115): Entering test case "Football5PriceTest"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(116): [1;32;49minfo: check 362 == int(football5->getActualCourtPrice()) has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(115): Leaving test case "Football5PriceTest"; testing time: 281us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/CourtTest.cpp(30): Leaving test suite "TestSuiteCourt"; testing time: 7263us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/EquipmentTest.cpp(14): Entering test suite "TestSuiteEquipment"
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/EquipmentTest.cpp(16): Entering test case "ParameterBallConstrutorTest"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/EquipmentTest.cpp(18): [1;32;49minfo: check testModel == b->getModel() has passed[0;39;49m
+/home/student/CLionProjects/start/project/library/test/EquipmentTest.cpp(19): [1;32;49minfo: check testBasePrice == b->getBasePrice() has passed[0;39;49m
+/home/student/CLionProjects/start/project/library/test/EquipmentTest.cpp(20): [1;32;49minfo: check "Football" == b->getSegmentType() has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/EquipmentTest.cpp(16): Leaving test case "ParameterBallConstrutorTest"; testing time: 402us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/EquipmentTest.cpp(23): Entering test case "ParameterRocketConstrutorTest"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/EquipmentTest.cpp(25): [1;32;49minfo: check testModel == r->getModel() has passed[0;39;49m
+/home/student/CLionProjects/start/project/library/test/EquipmentTest.cpp(26): [1;32;49minfo: check testBasePrice == r->getBasePrice() has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/EquipmentTest.cpp(23): Leaving test case "ParameterRocketConstrutorTest"; testing time: 343us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/EquipmentTest.cpp(29): Entering test case "BasePriceSetterTestPositive"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/EquipmentTest.cpp(32): [1;32;49minfo: check testBPSTP == testFootball->getBasePrice() has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/EquipmentTest.cpp(29): Leaving test case "BasePriceSetterTestPositive"; testing time: 268us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/EquipmentTest.cpp(35): Entering test case "BasePriceSetterTestNegative"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/EquipmentTest.cpp(38): [1;32;49minfo: check testBasePrice == testFootball->getBasePrice() has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/EquipmentTest.cpp(35): Leaving test case "BasePriceSetterTestNegative"; testing time: 345us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/EquipmentTest.cpp(41): Entering test case "RentedSetterTestPositive"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/EquipmentTest.cpp(43): [1;32;49minfo: check true == testFootball->isRented() has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/EquipmentTest.cpp(41): Leaving test case "RentedSetterTestPositive"; testing time: 339us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/EquipmentTest.cpp(46): Entering test case "RocketPriceTest"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/EquipmentTest.cpp(47): [1;32;49minfo: check 150 == int(testRocket->getActualEquipmentPrice()) has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/EquipmentTest.cpp(46): Leaving test case "RocketPriceTest"; testing time: 265us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/EquipmentTest.cpp(50): Entering test case "FootballPriceTest"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/EquipmentTest.cpp(51): [1;32;49minfo: check 130 == int(testFootball->getActualEquipmentPrice()) has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/EquipmentTest.cpp(50): Leaving test case "FootballPriceTest"; testing time: 376us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/EquipmentTest.cpp(54): Entering test case "BasketballPriceTest"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/EquipmentTest.cpp(55): [1;32;49minfo: check 120 == int(testBasketball->getActualEquipmentPrice()) has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/EquipmentTest.cpp(54): Leaving test case "BasketballPriceTest"; testing time: 550us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/EquipmentTest.cpp(58): Entering test case "VolleyballPriceTest"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/EquipmentTest.cpp(59): [1;32;49minfo: check 110 == int(testVolleyball->getActualEquipmentPrice()) has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/EquipmentTest.cpp(58): Leaving test case "VolleyballPriceTest"; testing time: 376us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/EquipmentTest.cpp(14): Leaving test suite "TestSuiteEquipment"; testing time: 3451us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RentTest.cpp(29): Entering test suite "TestSuiteRent"
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RentTest.cpp(31): Entering test case "ParameterConstrutorTest"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RentTest.cpp(34): [1;32;49minfo: check 0 == r->getRentEquipment().size() has passed[0;39;49m
+/home/student/CLionProjects/start/project/library/test/RentTest.cpp(36): [1;32;49minfo: check 2 == r->getId() has passed[0;39;49m
+/home/student/CLionProjects/start/project/library/test/RentTest.cpp(37): [1;32;49minfo: check testBeginTime == r->getBeginTime() has passed[0;39;49m
+/home/student/CLionProjects/start/project/library/test/RentTest.cpp(38): [1;32;49minfo: check pt::not_a_date_time == r->getEndTime() has passed[0;39;49m
+/home/student/CLionProjects/start/project/library/test/RentTest.cpp(39): [1;32;49minfo: check 0 == r->getRentCost() has passed[0;39;49m
+/home/student/CLionProjects/start/project/library/test/RentTest.cpp(40): [1;32;49minfo: check testClient == r->getRentClient() has passed[0;39;49m
+/home/student/CLionProjects/start/project/library/test/RentTest.cpp(41): [1;32;49minfo: check testCourt == r->getRentCourt() has passed[0;39;49m
+/home/student/CLionProjects/start/project/library/test/RentTest.cpp(42): [1;32;49minfo: check 1 == r->getRentEquipment().size() has passed[0;39;49m
+/home/student/CLionProjects/start/project/library/test/RentTest.cpp(43): [1;32;49minfo: check testCourt->isRented() == true has passed[0;39;49m
+/home/student/CLionProjects/start/project/library/test/RentTest.cpp(44): [1;32;49minfo: check testFootball->isRented() == true has passed[0;39;49m
+/home/student/CLionProjects/start/project/library/test/RentTest.cpp(45): [1;32;49minfo: check testClient->getCurrentRents().size() == 1 has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RentTest.cpp(31): Leaving test case "ParameterConstrutorTest"; testing time: 709us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RentTest.cpp(49): Entering test case "ReturnEverythingTest"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RentTest.cpp(54): [1;32;49minfo: check testCourt->isRented() == false has passed[0;39;49m
+/home/student/CLionProjects/start/project/library/test/RentTest.cpp(55): [1;32;49minfo: check testBasketball->isRented() == false has passed[0;39;49m
+/home/student/CLionProjects/start/project/library/test/RentTest.cpp(56): [1;32;49minfo: check testClient->getCurrentRents().size() == 0 has passed[0;39;49m
+/home/student/CLionProjects/start/project/library/test/RentTest.cpp(57): [1;32;49minfo: check rr->getRentEquipment().size() == 1 has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RentTest.cpp(49): Leaving test case "ReturnEverythingTest"; testing time: 595us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RentTest.cpp(60): Entering test case "BeginTimeTest"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RentTest.cpp(63): [1;32;49minfo: check pt::second_clock::local_time() == r->getBeginTime() has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RentTest.cpp(60): Leaving test case "BeginTimeTest"; testing time: 518us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RentTest.cpp(66): Entering test case "EndRentTest1"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RentTest.cpp(70): [1;32;49minfo: check pt::second_clock::local_time() == r00->getEndTime() has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RentTest.cpp(66): Leaving test case "EndRentTest1"; testing time: 690us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RentTest.cpp(73): Entering test case "EndRentTest2"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RentTest.cpp(78): [1;32;49minfo: check testBeginTime00 == r00->getEndTime() has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RentTest.cpp(73): Leaving test case "EndRentTest2"; testing time: 480us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RentTest.cpp(81): Entering test case "EndRentTest3"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RentTest.cpp(84): [1;32;49minfo: check eTime1 == r01->getEndTime() has passed[0;39;49m
+/home/student/CLionProjects/start/project/library/test/RentTest.cpp(86): [1;32;49minfo: check eTime1 == r01->getEndTime() has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RentTest.cpp(81): Leaving test case "EndRentTest3"; testing time: 696us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RentTest.cpp(89): Entering test case "EndRentTest4"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RentTest.cpp(93): [1;32;49minfo: check testBeginTime == r02->getEndTime() has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RentTest.cpp(89): Leaving test case "EndRentTest4"; testing time: 381us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RentTest.cpp(96): Entering test case "GetRentHoursTest1"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RentTest.cpp(99): [1;32;49minfo: check 0 == r1->getRentHours() has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RentTest.cpp(96): Leaving test case "GetRentHoursTest1"; testing time: 305us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RentTest.cpp(102): Entering test case "GetRentHoursTest2"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RentTest.cpp(105): [1;32;49minfo: check 1 == r2->getRentHours() has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RentTest.cpp(102): Leaving test case "GetRentHoursTest2"; testing time: 337us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RentTest.cpp(108): Entering test case "GetRentHoursTest3"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RentTest.cpp(111): [1;32;49minfo: check 1 == r3->getRentHours() has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RentTest.cpp(108): Leaving test case "GetRentHoursTest3"; testing time: 411us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RentTest.cpp(114): Entering test case "GetRentHoursTest4"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RentTest.cpp(117): [1;32;49minfo: check 1 == r4->getRentHours() has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RentTest.cpp(114): Leaving test case "GetRentHoursTest4"; testing time: 377us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RentTest.cpp(120): Entering test case "GetRentHoursTest5"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RentTest.cpp(123): [1;32;49minfo: check 2 == r5->getRentHours() has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RentTest.cpp(120): Leaving test case "GetRentHoursTest5"; testing time: 293us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RentTest.cpp(126): Entering test case "GetRentHoursTest6"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RentTest.cpp(129): [1;32;49minfo: check 2 == r6->getRentHours() has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RentTest.cpp(126): Leaving test case "GetRentHoursTest6"; testing time: 435us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RentTest.cpp(132): Entering test case "GetEquipmentPriceTest"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RentTest.cpp(138): [1;32;49minfo: check req->getRentEquipmentPrice() == 360 has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RentTest.cpp(132): Leaving test case "GetEquipmentPriceTest"; testing time: 385us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RentTest.cpp(141): Entering test case "GetRentCostTest1"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RentTest.cpp(146): [1;32;49minfo: check rct1->getRentCost()==301 has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RentTest.cpp(141): Leaving test case "GetRentCostTest1"; testing time: 356us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RentTest.cpp(149): Entering test case "GetRentCostTest2"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RentTest.cpp(154): [1;32;49minfo: check rct2->getRentCost()==602 has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RentTest.cpp(149): Leaving test case "GetRentCostTest2"; testing time: 546us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RentTest.cpp(157): Entering test case "GetRentCostTest3"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RentTest.cpp(163): [1;32;49minfo: check rct3->getRentCost()==301 has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RentTest.cpp(157): Leaving test case "GetRentCostTest3"; testing time: 341us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RentTest.cpp(29): Leaving test suite "TestSuiteRent"; testing time: 8341us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(35): Entering test suite "TestSuiteRepository"
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(37): Entering test case "ClientRepositoryGetTestPositive"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(40): [1;32;49minfo: check clientRepository->get(0) == client1 has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(37): Leaving test case "ClientRepositoryGetTestPositive"; testing time: 334us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(43): Entering test case "ClientRepositoryGetTestNegative"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(44): [1;32;49minfo: check clientRepository->get(0) == nullptr has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(43): Leaving test case "ClientRepositoryGetTestNegative"; testing time: 455us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(47): Entering test case "ClientRepositoryAddTestPositive"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(48): [1;32;49minfo: check clientRepository->add(client1) == true has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(47): Leaving test case "ClientRepositoryAddTestPositive"; testing time: 376us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(51): Entering test case "ClientRepositoryAddTestNegative"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(52): [1;32;49minfo: check clientRepository->add(client1) == true has passed[0;39;49m
+/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(53): [1;32;49minfo: check clientRepository->add(client1) == false has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(51): Leaving test case "ClientRepositoryAddTestNegative"; testing time: 500us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(56): Entering test case "ClientRepositoryRemoveTestPositive"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(59): [1;32;49minfo: check clientRepository->remove(client1) == true has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(56): Leaving test case "ClientRepositoryRemoveTestPositive"; testing time: 691us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(62): Entering test case "ClientRepositoryRemoveTestNegative"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(63): [1;32;49minfo: check clientRepository->remove(client1) == false has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(62): Leaving test case "ClientRepositoryRemoveTestNegative"; testing time: 800us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(66): Entering test case "ClientRepositorySizeTest"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(70): [1;32;49minfo: check clientRepository->size() == 2 has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(66): Leaving test case "ClientRepositorySizeTest"; testing time: 863us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(73): Entering test case "ClientRepositoryFindByTestPositive"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(81): [1;32;49minfo: check clientRepository->findBy(predicate).size() == 1 has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(73): Leaving test case "ClientRepositoryFindByTestPositive"; testing time: 610us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(84): Entering test case "ClientRepositoryFindByTestNegative"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(89): [1;32;49minfo: check clientRepository->findBy(predicate).size() == 0 has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(84): Leaving test case "ClientRepositoryFindByTestNegative"; testing time: 552us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(92): Entering test case "ClientRepositoryFindAllTestPositive"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(96): [1;32;49minfo: check clientRepository->findAll().size() == 2 has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(92): Leaving test case "ClientRepositoryFindAllTestPositive"; testing time: 663us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(99): Entering test case "ClientRepositoryFindAllTestNegative"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(100): [1;32;49minfo: check clientRepository->findAll().size() == 0 has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(99): Leaving test case "ClientRepositoryFindAllTestNegative"; testing time: 369us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(104): Entering test case "CourtRepositoryGetTestPositive"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(107): [1;32;49minfo: check courtRepository->get(0) == pingpong1 has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(104): Leaving test case "CourtRepositoryGetTestPositive"; testing time: 295us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(110): Entering test case "CourtRepositoryGetTestNegative"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(111): [1;32;49minfo: check courtRepository->get(0) == nullptr has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(110): Leaving test case "CourtRepositoryGetTestNegative"; testing time: 766us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(114): Entering test case "CourtRepositoryAddTestPositive"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(115): [1;32;49minfo: check courtRepository->add(pingpong1) == true has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(114): Leaving test case "CourtRepositoryAddTestPositive"; testing time: 377us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(118): Entering test case "CourtRepositoryAddTestNegative"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(119): [1;32;49minfo: check courtRepository->add(pingpong1) == true has passed[0;39;49m
+/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(120): [1;32;49minfo: check courtRepository->add(pingpong1) == false has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(118): Leaving test case "CourtRepositoryAddTestNegative"; testing time: 309us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(123): Entering test case "CourtRepositoryRemoveTestPositive"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(126): [1;32;49minfo: check courtRepository->remove(pingpong1) == true has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(123): Leaving test case "CourtRepositoryRemoveTestPositive"; testing time: 369us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(129): Entering test case "CourtRepositoryRemoveTestNegative"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(130): [1;32;49minfo: check courtRepository->remove(pingpong1) == false has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(129): Leaving test case "CourtRepositoryRemoveTestNegative"; testing time: 676us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(133): Entering test case "CourtRepositorySizeTest"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(137): [1;32;49minfo: check courtRepository->size() == 2 has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(133): Leaving test case "CourtRepositorySizeTest"; testing time: 382us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(140): Entering test case "CourtRepositoryFindByTestPositive"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(148): [1;32;49minfo: check courtRepository->findBy(predicate).size() == 1 has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(140): Leaving test case "CourtRepositoryFindByTestPositive"; testing time: 371us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(151): Entering test case "CourtRepositoryFindByTestNegative"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(156): [1;32;49minfo: check courtRepository->findBy(predicate).size() == 0 has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(151): Leaving test case "CourtRepositoryFindByTestNegative"; testing time: 295us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(159): Entering test case "CourtRepositoryFindAllTestPositive"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(163): [1;32;49minfo: check courtRepository->findAll().size() == 2 has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(159): Leaving test case "CourtRepositoryFindAllTestPositive"; testing time: 718us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(166): Entering test case "CourtRepositoryFindAllTestNegative"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(167): [1;32;49minfo: check courtRepository->findAll().size() == 0 has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(166): Leaving test case "CourtRepositoryFindAllTestNegative"; testing time: 451us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(171): Entering test case "EquipmentRepositoryGetTestPositive"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(174): [1;32;49minfo: check equipmentRepository->get(0) == ball1 has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(171): Leaving test case "EquipmentRepositoryGetTestPositive"; testing time: 312us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(177): Entering test case "EquipmentRepositoryGetTestNegative"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(178): [1;32;49minfo: check equipmentRepository->get(0) == nullptr has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(177): Leaving test case "EquipmentRepositoryGetTestNegative"; testing time: 372us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(181): Entering test case "EquipmentRepositoryAddTestPositive"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(182): [1;32;49minfo: check equipmentRepository->add(ball1) == true has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(181): Leaving test case "EquipmentRepositoryAddTestPositive"; testing time: 441us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(185): Entering test case "EquipmentRepositoryAddTestNegative"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(186): [1;32;49minfo: check equipmentRepository->add(ball1) == true has passed[0;39;49m
+/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(187): [1;32;49minfo: check equipmentRepository->add(ball1) == false has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(185): Leaving test case "EquipmentRepositoryAddTestNegative"; testing time: 439us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(190): Entering test case "EquipmentRepositoryRemoveTestPositive"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(193): [1;32;49minfo: check equipmentRepository->remove(ball1) == true has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(190): Leaving test case "EquipmentRepositoryRemoveTestPositive"; testing time: 303us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(196): Entering test case "EquipmentRepositoryRemoveTestNegative"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(197): [1;32;49minfo: check equipmentRepository->remove(ball1) == false has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(196): Leaving test case "EquipmentRepositoryRemoveTestNegative"; testing time: 377us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(200): Entering test case "EquipmentRepositorySizeTest"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(204): [1;32;49minfo: check equipmentRepository->size() == 2 has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(200): Leaving test case "EquipmentRepositorySizeTest"; testing time: 402us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(207): Entering test case "EquipmentRepositoryFindByTestPositive"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(215): [1;32;49minfo: check equipmentRepository->findBy(predicate).size() == 1 has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(207): Leaving test case "EquipmentRepositoryFindByTestPositive"; testing time: 682us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(218): Entering test case "EquipmentRepositoryFindByTestNegative"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(223): [1;32;49minfo: check equipmentRepository->findBy(predicate).size() == 0 has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(218): Leaving test case "EquipmentRepositoryFindByTestNegative"; testing time: 370us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(226): Entering test case "EquipmentRepositoryFindAllTestPositive"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(230): [1;32;49minfo: check equipmentRepository->findAll().size() == 2 has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(226): Leaving test case "EquipmentRepositoryFindAllTestPositive"; testing time: 289us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(233): Entering test case "EquipmentRepositoryFindAllTestNegative"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(234): [1;32;49minfo: check equipmentRepository->findAll().size() == 0 has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(233): Leaving test case "EquipmentRepositoryFindAllTestNegative"; testing time: 373us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(238): Entering test case "RentRepositoryGetTestPositive"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(241): [1;32;49minfo: check rentRepository->get(rent1->getId()) == rent1 has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(238): Leaving test case "RentRepositoryGetTestPositive"; testing time: 373us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(244): Entering test case "RentRepositoryGetTestNegative"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(245): [1;32;49minfo: check rentRepository->get(rent1->getId()) == nullptr has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(244): Leaving test case "RentRepositoryGetTestNegative"; testing time: 276us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(248): Entering test case "RentRepositoryAddTestPositive"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(249): [1;32;49minfo: check rentRepository->add(rent1) == true has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(248): Leaving test case "RentRepositoryAddTestPositive"; testing time: 310us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(252): Entering test case "RentRepositoryAddTestNegative"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(253): [1;32;49minfo: check rentRepository->add(rent1) == true has passed[0;39;49m
+/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(254): [1;32;49minfo: check rentRepository->add(rent1) == false has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(252): Leaving test case "RentRepositoryAddTestNegative"; testing time: 372us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(257): Entering test case "RentRepositoryRemoveTestPositive"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(260): [1;32;49minfo: check rentRepository->remove(rent1) == true has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(257): Leaving test case "RentRepositoryRemoveTestPositive"; testing time: 392us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(263): Entering test case "RentRepositoryRemoveTestNegative"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(264): [1;32;49minfo: check rentRepository->remove(rent1) == false has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(263): Leaving test case "RentRepositoryRemoveTestNegative"; testing time: 313us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(267): Entering test case "RentRepositorySizeTest"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(271): [1;32;49minfo: check rentRepository->size() == 2 has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(267): Leaving test case "RentRepositorySizeTest"; testing time: 393us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(274): Entering test case "RentRepositoryFindByTestPositive"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(282): [1;32;49minfo: check rentRepository->findBy(predicate).size() == 1 has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(274): Leaving test case "RentRepositoryFindByTestPositive"; testing time: 461us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(285): Entering test case "RentRepositoryFindByTestNegative"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(290): [1;32;49minfo: check rentRepository->findBy(predicate).size() == 0 has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(285): Leaving test case "RentRepositoryFindByTestNegative"; testing time: 600us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(293): Entering test case "RentRepositoryFindAllTestPositive"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(297): [1;32;49minfo: check rentRepository->findAll().size() == 2 has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(293): Leaving test case "RentRepositoryFindAllTestPositive"; testing time: 378us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(300): Entering test case "RentRepositoryFindAllTestNegative"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(301): [1;32;49minfo: check rentRepository->findAll().size() == 0 has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(300): Leaving test case "RentRepositoryFindAllTestNegative"; testing time: 386us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/RepositoryTest.cpp(35): Leaving test suite "TestSuiteRepository"; testing time: 21062us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/ManagersTest.cpp(12): Entering test suite "TestSuiteManager"
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/ManagersTest.cpp(14): Entering test case "RegisterClientTest"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/ManagersTest.cpp(16): [1;32;49minfo: check testSuperManager->getStorageContainer()->getClientRepository()->size() == 5 has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/ManagersTest.cpp(14): Leaving test case "RegisterClientTest"; testing time: 554us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/ManagersTest.cpp(19): Entering test case "UnregisterClientTest"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/ManagersTest.cpp(21): [1;32;49minfo: check testSuperManager->getStorageContainer()->getClientRepository()->size() == 4 has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/ManagersTest.cpp(19): Leaving test case "UnregisterClientTest"; testing time: 534us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/ManagersTest.cpp(24): Entering test case "GetClientRepositoryTest"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/ManagersTest.cpp(25): [1;32;49minfo: check testSuperManager->getStorageContainer()->getClientRepository() == testSuperManager->getClientManager()->getClientsRepo() has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/ManagersTest.cpp(24): Leaving test case "GetClientRepositoryTest"; testing time: 534us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/ManagersTest.cpp(29): Entering test case "RegisterCourtTest"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/ManagersTest.cpp(31): [1;32;49minfo: check testSuperManager->getStorageContainer()->getCourtRepository()->size() == 16 has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/ManagersTest.cpp(29): Leaving test case "RegisterCourtTest"; testing time: 542us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/ManagersTest.cpp(34): Entering test case "UnregisterCourtTest"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/ManagersTest.cpp(36): [1;32;49minfo: check testSuperManager->getStorageContainer()->getCourtRepository()->size() == 15 has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/ManagersTest.cpp(34): Leaving test case "UnregisterCourtTest"; testing time: 549us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/ManagersTest.cpp(39): Entering test case "GetCourtRepositoryTest"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/ManagersTest.cpp(40): [1;32;49minfo: check testSuperManager->getStorageContainer()->getCourtRepository() == testSuperManager->getCourtManager()->getCourtsRepo() has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/ManagersTest.cpp(39): Leaving test case "GetCourtRepositoryTest"; testing time: 542us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/ManagersTest.cpp(44): Entering test case "RegisterEquipmentTest"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/ManagersTest.cpp(46): [1;32;49minfo: check testSuperManager->getStorageContainer()->getEquipmentRepository()->size() == 7 has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/ManagersTest.cpp(44): Leaving test case "RegisterEquipmentTest"; testing time: 531us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/ManagersTest.cpp(48): Entering test case "UnregisterEquipmentTest"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/ManagersTest.cpp(50): [1;32;49minfo: check testSuperManager->getStorageContainer()->getEquipmentRepository()->size() == 6 has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/ManagersTest.cpp(48): Leaving test case "UnregisterEquipmentTest"; testing time: 528us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/ManagersTest.cpp(53): Entering test case "GetEquipmentRepositoryTest"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/ManagersTest.cpp(54): [1;32;49minfo: check testSuperManager->getStorageContainer()->getEquipmentRepository() == testSuperManager->getEquipmentManager()->getEquipmentsRepo() has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/ManagersTest.cpp(53): Leaving test case "GetEquipmentRepositoryTest"; testing time: 553us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/ManagersTest.cpp(58): Entering test case "RegisterRentTest"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/ManagersTest.cpp(63): [1;32;49minfo: check testSuperManager->getStorageContainer()->getRentRepository()->size() == 7 has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/ManagersTest.cpp(58): Leaving test case "RegisterRentTest"; testing time: 1013us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/ManagersTest.cpp(66): Entering test case "UnregisterRentTest"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/ManagersTest.cpp(68): [1;32;49minfo: check testSuperManager->getStorageContainer()->getRentRepository()->size() == 6 has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/ManagersTest.cpp(66): Leaving test case "UnregisterRentTest"; testing time: 682us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/ManagersTest.cpp(71): Entering test case "GetRentRepositoryTest"
+[0;39;49m/home/student/CLionProjects/start/project/library/test/ManagersTest.cpp(72): [1;32;49minfo: check testSuperManager->getStorageContainer()->getRentRepository() == testSuperManager->getRentManager()->getRentsRepo() has passed[0;39;49m
+[1;34;49m/home/student/CLionProjects/start/project/library/test/ManagersTest.cpp(71): Leaving test case "GetRentRepositoryTest"; testing time: 725us
+[0;39;49m[1;34;49m/home/student/CLionProjects/start/project/library/test/ManagersTest.cpp(12): Leaving test suite "TestSuiteManager"; testing time: 7819us
+[0;39;49m[1;34;49mLeaving test module "Master Test Suite"; testing time: 57871us
+[0;39;49m
+Test module "Master Test Suite" has passed with:
+  125 test cases out of 125 passed
+  155 assertions out of 155 passed
+
+  Test suite "TestSuiteAddress" has passed with:
+    7 test cases out of 7 passed
+    9 assertions out of 9 passed
+
+    Test case "TestSuiteAddress/ParameterConstrutorTest" has passed with:
+      3 assertions out of 3 passed
+
+    Test case "TestSuiteAddress/CitySetterTestPositive" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteAddress/CitySetterTestNegative" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteAddress/StreetSetterTestPositive" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteAddress/StreetSetterTestNegative" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteAddress/NumberSetterTestPositive" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteAddress/NumberSetterTestNegative" has passed with:
+      1 assertion out of 1 passed
+
+  Test suite "TestSuiteClient" has passed with:
+    17 test cases out of 17 passed
+    19 assertions out of 19 passed
+
+    Test case "TestSuiteClient/ParameterConstrutorTest" has passed with:
+      3 assertions out of 3 passed
+
+    Test case "TestSuiteClient/FirstNameSetterTestPositive" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteClient/FirstNameSetterTestNegative" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteClient/LastNameSetterTestPositive" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteClient/LastNameSetterTestNegative" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteClient/AddressSetterTestPositive" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteClient/AddressSetterTestNegative" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteClient/ClientTypeSetterTestPositive" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteClient/ClientTypeSetterTestNegative" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteClient/DefaultCourtsTest" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteClient/FitCarnetCourtsTest" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteClient/PatronCourtsTest" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteClient/TrainerCourtsTest" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteClient/DefaultDiscountTest" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteClient/FitCarnetDiscountTest" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteClient/PatronDiscountTest" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteClient/TrainerDiscountTest" has passed with:
+      1 assertion out of 1 passed
+
+  Test suite "TestSuiteCourt" has passed with:
+    19 test cases out of 19 passed
+    24 assertions out of 24 passed
+
+    Test case "TestSuiteCourt/ParameterConstrutorTest" has passed with:
+      6 assertions out of 6 passed
+
+    Test case "TestSuiteCourt/BasePriceSetterTestPositive" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteCourt/BasePriceSetterTestNegative" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteCourt/RentedSetterTestPositive" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteCourt/Pingpong1PriceTest" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteCourt/Basket1PriceTest" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteCourt/Basket2PriceTest" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteCourt/Basket3PriceTest" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteCourt/Volleyball1PriceTest" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteCourt/Volleyball2PriceTest" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteCourt/Volleyball3PriceTest" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteCourt/Tennis1PriceTest" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteCourt/Tennis2PriceTest" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteCourt/Tennis3PriceTest" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteCourt/Football1PriceTest" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteCourt/Football2PriceTest" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteCourt/Football3PriceTest" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteCourt/Football4PriceTest" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteCourt/Football5PriceTest" has passed with:
+      1 assertion out of 1 passed
+
+  Test suite "TestSuiteEquipment" has passed with:
+    9 test cases out of 9 passed
+    12 assertions out of 12 passed
+
+    Test case "TestSuiteEquipment/ParameterBallConstrutorTest" has passed with:
+      3 assertions out of 3 passed
+
+    Test case "TestSuiteEquipment/ParameterRocketConstrutorTest" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "TestSuiteEquipment/BasePriceSetterTestPositive" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteEquipment/BasePriceSetterTestNegative" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteEquipment/RentedSetterTestPositive" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteEquipment/RocketPriceTest" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteEquipment/FootballPriceTest" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteEquipment/BasketballPriceTest" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteEquipment/VolleyballPriceTest" has passed with:
+      1 assertion out of 1 passed
+
+  Test suite "TestSuiteRent" has passed with:
+    17 test cases out of 17 passed
+    31 assertions out of 31 passed
+
+    Test case "TestSuiteRent/ParameterConstrutorTest" has passed with:
+      11 assertions out of 11 passed
+
+    Test case "TestSuiteRent/ReturnEverythingTest" has passed with:
+      4 assertions out of 4 passed
+
+    Test case "TestSuiteRent/BeginTimeTest" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteRent/EndRentTest1" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteRent/EndRentTest2" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteRent/EndRentTest3" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "TestSuiteRent/EndRentTest4" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteRent/GetRentHoursTest1" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteRent/GetRentHoursTest2" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteRent/GetRentHoursTest3" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteRent/GetRentHoursTest4" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteRent/GetRentHoursTest5" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteRent/GetRentHoursTest6" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteRent/GetEquipmentPriceTest" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteRent/GetRentCostTest1" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteRent/GetRentCostTest2" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteRent/GetRentCostTest3" has passed with:
+      1 assertion out of 1 passed
+
+  Test suite "TestSuiteRepository" has passed with:
+    44 test cases out of 44 passed
+    48 assertions out of 48 passed
+
+    Test case "TestSuiteRepository/ClientRepositoryGetTestPositive" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteRepository/ClientRepositoryGetTestNegative" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteRepository/ClientRepositoryAddTestPositive" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteRepository/ClientRepositoryAddTestNegative" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "TestSuiteRepository/ClientRepositoryRemoveTestPositive" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteRepository/ClientRepositoryRemoveTestNegative" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteRepository/ClientRepositorySizeTest" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteRepository/ClientRepositoryFindByTestPositive" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteRepository/ClientRepositoryFindByTestNegative" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteRepository/ClientRepositoryFindAllTestPositive" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteRepository/ClientRepositoryFindAllTestNegative" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteRepository/CourtRepositoryGetTestPositive" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteRepository/CourtRepositoryGetTestNegative" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteRepository/CourtRepositoryAddTestPositive" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteRepository/CourtRepositoryAddTestNegative" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "TestSuiteRepository/CourtRepositoryRemoveTestPositive" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteRepository/CourtRepositoryRemoveTestNegative" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteRepository/CourtRepositorySizeTest" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteRepository/CourtRepositoryFindByTestPositive" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteRepository/CourtRepositoryFindByTestNegative" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteRepository/CourtRepositoryFindAllTestPositive" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteRepository/CourtRepositoryFindAllTestNegative" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteRepository/EquipmentRepositoryGetTestPositive" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteRepository/EquipmentRepositoryGetTestNegative" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteRepository/EquipmentRepositoryAddTestPositive" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteRepository/EquipmentRepositoryAddTestNegative" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "TestSuiteRepository/EquipmentRepositoryRemoveTestPositive" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteRepository/EquipmentRepositoryRemoveTestNegative" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteRepository/EquipmentRepositorySizeTest" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteRepository/EquipmentRepositoryFindByTestPositive" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteRepository/EquipmentRepositoryFindByTestNegative" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteRepository/EquipmentRepositoryFindAllTestPositive" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteRepository/EquipmentRepositoryFindAllTestNegative" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteRepository/RentRepositoryGetTestPositive" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteRepository/RentRepositoryGetTestNegative" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteRepository/RentRepositoryAddTestPositive" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteRepository/RentRepositoryAddTestNegative" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "TestSuiteRepository/RentRepositoryRemoveTestPositive" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteRepository/RentRepositoryRemoveTestNegative" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteRepository/RentRepositorySizeTest" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteRepository/RentRepositoryFindByTestPositive" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteRepository/RentRepositoryFindByTestNegative" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteRepository/RentRepositoryFindAllTestPositive" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteRepository/RentRepositoryFindAllTestNegative" has passed with:
+      1 assertion out of 1 passed
+
+  Test suite "TestSuiteManager" has passed with:
+    12 test cases out of 12 passed
+    12 assertions out of 12 passed
+
+    Test case "TestSuiteManager/RegisterClientTest" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteManager/UnregisterClientTest" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteManager/GetClientRepositoryTest" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteManager/RegisterCourtTest" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteManager/UnregisterCourtTest" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteManager/GetCourtRepositoryTest" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteManager/RegisterEquipmentTest" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteManager/UnregisterEquipmentTest" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteManager/GetEquipmentRepositoryTest" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteManager/RegisterRentTest" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteManager/UnregisterRentTest" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "TestSuiteManager/GetRentRepositoryTest" has passed with:
+      1 assertion out of 1 passed
+
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"LibraryTest" end time: Jun 09 09:59 CEST
+"LibraryTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 09 09:59 CEST
